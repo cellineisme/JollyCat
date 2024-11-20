@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="15dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/cat_item_image_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/cat_item_name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lexreg"
+                android:text="Cat Name"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/cat_item_desc_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lexreg"
+                android:text="Cat Description"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/cat_item_price_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lexreg"
+                android:text="Cat Price"
+                android:textSize="16dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
